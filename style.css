@@ -50,3 +50,7 @@ h2 {
 .visibility {
     display: none;
 }
+
+a {
+    color: white;
+}
