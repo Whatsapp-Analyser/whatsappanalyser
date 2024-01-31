@@ -1,0 +1,52 @@
+h2 {
+    font-size: 20px;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.header {
+    background: #075E54;
+}
+
+.text-block {
+    padding: 50px;
+    background: #075E54;
+    color: white;
+}
+
+.text-container {
+    display:flex;
+    justify-content:space-between;
+}
+
+.text-block-numbers h3, .text-block-dates h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.text-block-numbers p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.text-block-dates p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.bigger-text {
+    font-size: 30px !important;
+}
+
+.file-input {
+    width: 200px;
+}
+
+.visibility {
+    display: none;
+}
