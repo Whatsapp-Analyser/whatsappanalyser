@@ -13,6 +13,7 @@ h2 {
 .text-block {
     padding: 50px;
     color: white;
+    background: #075E54 !important;
 }
 
 .text-container {
@@ -42,22 +43,13 @@ h2 {
     font-size: 30px !important;
 }
 
-.file-input {
-    width: 200px;
-}
-
 .visibility {
     display: none;
 }
 
-a {
-    color: #075E54;
-}
-
 .footer {
     position: fixed;
-    left: 0;
-    bottom: 0;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
-    color: white;
 }
