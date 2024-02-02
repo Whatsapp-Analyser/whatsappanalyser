@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name=”robots” content=”noindex”>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KKC7JQKT');</script>
+        <!-- End Google Tag Manager -->
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HX96963GGW"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('event', )
+        
+          gtag('config', 'G-HX96963GGW');
+        </script>
+
         <meta charset="utf-8">
+        <meta name="description" content="Whatsapp Analyser: An analysis of all the messages that been sent in your group chat">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
 
-        <title>Whatsapp Analysis</title>
+        <title>Whatsapp Analyser - Analyse whatsapp chats</title>
     </head>
     <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKC7JQKT"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
         <div class="container-fluid p-5 text-white text-center header">
             <div>
                 <h1 id="name">Whatsapp Analyser</h1>
@@ -20,10 +43,13 @@
             </div>
         </div>
         <div class="container mt-5 file-input mb-5">
-            <input type="file" id="fileInput" />
+            <input type="file" name="file" id="file" class="inputfile" />
+            <label for="file">Choose a file</label>
         </div>
 
-        <div class="container-fluid p-5 text-white text-center header">
+        <hr>
+
+        <div class="container-fluid p-3 text-dark text-center instruction">
             <div>
                 <h2 id="name">How it works</h2>
             </div>
@@ -43,12 +69,13 @@
                     what you and your friends talk about in your chats.
                 </p>
 
-                <p>Don't believe us? Good. We love that you care about your data, but we are legit.
+                <p>Don't believe us? <b>Good</b>. We love that you care about your data, but we are legit.
                     See the code at our <a href="https://github.com/Whatsapp-Analyser/whatsappanalyser" target="_blank">github</a>.
                 </p>
             </div>
         </div>
 
+        <hr>
 
         <div class="container mt-5 visibility">
             <div class="row">
@@ -109,6 +136,12 @@
                 <p style="font-size: 16px;" id="longest-sentence-msg"></p>
             </div>
         </div>
+
+        <footer class="text-center text-white bg-dark footer">
+            <div class="text-center p-3">
+                © Whatsapp Analyser 2024
+            </div>
+        </footer>
 
         <script src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
